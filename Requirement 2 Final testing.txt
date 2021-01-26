@@ -1,0 +1,7 @@
+Course computing = new Course("G400", "Computing");
+Student evan = new Student("Evan", "234214");
+evan.addCourse(computing);
+evan.print();
+Evan, student ID: 234214, credits: 0
+Code:G400
+Title:Computing

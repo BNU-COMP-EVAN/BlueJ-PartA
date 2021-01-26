@@ -1,0 +1,8 @@
+LabClass co452Lab = new LabClass(3);
+Student student1 = new Student("Evan", "21312312");
+Student student2 = new Student("Kaye", "23123434");
+Student student3 = new Student("Darwin", "2343434567");
+student1.addCredits(20);
+student2.addCredits(20);
+student3.addCredits(20);
+student2.changeName("Keii");

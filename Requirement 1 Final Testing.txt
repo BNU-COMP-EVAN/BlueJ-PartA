@@ -1,0 +1,37 @@
+LabClass co452Lab = new LabClass(3);
+Student evan = new Student("Evan", "1324324");
+Student keii = new Student("Keii", "3413341");
+Student roland = new Student("Roland", "2145346");
+evan.addCredits(20);
+keii.addCredits(20);
+roland.addCredits(20);
+evan.print();
+Evan, student ID: 1324324, credits: 20
+keii.print();
+Keii, student ID: 3413341, credits: 20
+roland.print();
+Roland, student ID: 2145346, credits: 20
+co452Lab.setInstructor("Nicholas Day");
+co452Lab.setRoom("G100");
+co452Lab.setTime("Friday 15th January 2021");
+co452Lab.printList();
+Lab class Friday 15th January 2021
+Instructor: Nicholas Day   Room: G100
+Class list:
+Number of students: 0
+co452Lab.enrollStudent(evan);
+co452Lab.enrollStudent(keii);
+co452Lab.enrollStudent(roland);
+co452Lab.numberOfStudents()
+    returned int 3
+co452Lab.printList();
+Lab class Friday 15th January 2021
+Instructor: Nicholas Day   Room: G100
+Class list:
+Evan, student ID: 1324324, credits: 20
+Keii, student ID: 3413341, credits: 20
+Roland, student ID: 2145346, credits: 20
+Number of students: 3
+keii.changeName("Kaye");
+keii.print();
+Kaye, student ID: 3413341, credits: 20
