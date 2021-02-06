@@ -1,0 +1,21 @@
+TicketMachine Railway = new TicketMachine();
+Railway.inserttwopounds(Coin.P200);
+You have inserted Two Pounds coin
+Your balance is 200
+Railway.inserttwopounds(Coin.P200);
+You have inserted Two Pounds coin
+Your balance is 400
+Railway.selectAylesburyTicket();
+You have selected the Aylesbury Ticket
+Railway.printbalance();
+Your balance is 400
+Railway.printTicket();
+##################
+Destination: Aylesbury, Cost: 220, Date Sat Feb 06 18:34:48 GMT 2021
+##################
+
+Your balance is 180
+Railway.refundbalance();
+ Amount refunded 180
+Railway.printbalance();
+Your balance is 0

@@ -1,0 +1,58 @@
+TicketMachine railway = new TicketMachine();
+railway.displayDestination();
+Choose from the following destination
+Destination: Aylesbury, Cost: 220, Date Sat Feb 06 17:42:14 GMT 2021
+Destination: Amersham, Cost: 300, Date Sat Feb 06 17:42:14 GMT 2021
+Destination: HighWycombe, Cost: 330, Date Sat Feb 06 17:42:14 GMT 2021
+railway.selectAmershamTicket();
+You have selected the Amersham Ticket
+railway.inserttwopounds(Coin.P200);
+You have inserted Two Pounds coin
+Your balance is 200
+railway.insertonepound(Coin.P100);
+You have inserted a One Pound coin
+Your balance is 300
+railway.printTicket();
+##################
+Destination: Amersham, Cost: 300, Date Sat Feb 06 17:42:14 GMT 2021
+##################
+
+Your balance is 0
+railway.inserttwopounds(Coin.P200);
+You have inserted Two Pounds coin
+Your balance is 200
+railway.selectAylesburyTicket();
+You have selected the Aylesbury Ticket
+railway.printTicket();
+You must insert at least: 20 more cents.
+railway.inserttwentypence(Coin.P20);
+You have inserted Twenty Pence coin
+Your balance is 220
+railway.printTicket();
+##################
+Destination: Aylesbury, Cost: 220, Date Sat Feb 06 17:42:14 GMT 2021
+##################
+
+Your balance is 0
+railway.selectHighWycombeticket();
+You have selected the High Wycombe Ticket
+railway.inserttwopounds(Coin.P200);
+You have inserted Two Pounds coin
+Your balance is 200
+railway.insertonepound(Coin.P100);
+You have inserted a One Pound coin
+Your balance is 300
+railway.printTicket();
+You must insert at least: 30 more cents.
+railway.inserttwentypence(Coin.P20);
+You have inserted Twenty Pence coin
+Your balance is 320
+railway.inserttenpence(Coin.P10);
+You have inserted Ten Pence coin
+Your balance is 330
+railway.printTicket();
+##################
+Destination: HighWycombe, Cost: 330, Date Sat Feb 06 17:42:14 GMT 2021
+##################
+
+Your balance is 0
