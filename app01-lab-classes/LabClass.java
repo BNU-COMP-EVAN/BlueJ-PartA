@@ -4,8 +4,6 @@ import java.util.*;
  * The LabClass class represents an enrolment list for one lab class. It stores
  * the time, room and participants of the lab, as well as the instructor's name.
  * 
- * @author Michael Kölling and David Barnes
- * @version 2016.02.29
  * modified by Evan Castro
  * 13/01/2021
  */

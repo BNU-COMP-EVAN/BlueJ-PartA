@@ -1,0 +1,38 @@
+Course computing = new Course("G400", "COMPUTING");
+Module module1 = new Module("Programming Concept", "MODULE1");
+Module module2 = new Module("WEB", "MODULE2");
+Module module3 = new Module("DIGITECH", "MODULE3");
+Module module4 = new Module("COMP ARCH", "MODULE4");
+computing.addModule(module1, 1);
+computing.addModule(module2, 2);
+computing.addModule(module3, 3);
+computing.addModule(module4, 4);
+computing.print();
+Course: G400 - COMPUTING
+Module 1: Programming Concept (MODULE1) Mark: 0
+Module 2: WEB (MODULE2) Mark: 0
+Module 3: DIGITECH (MODULE3) Mark: 0
+Module 4: COMP ARCH (MODULE4) Mark: 0
+Final Grade: F
+module1.setMark(50);
+module2.setMark(60);
+module3.setMark(50);
+module4.setMark(55);
+computing.print();
+Course: G400 - COMPUTING
+Module 1: Programming Concept (MODULE1) Mark: 50
+Module 2: WEB (MODULE2) Mark: 60
+Module 3: DIGITECH (MODULE3) Mark: 50
+Module 4: COMP ARCH (MODULE4) Mark: 55
+Final Grade: C
+Student evan = new Student("Evan Castro", "22026088");
+evan.enrolOnCourse(computing);
+evan.printCourse();
+Name: Evan Castro
+id: 22026088
+Course: G400 - COMPUTING
+Module 1: Programming Concept (MODULE1) Mark: 50
+Module 2: WEB (MODULE2) Mark: 60
+Module 3: DIGITECH (MODULE3) Mark: 50
+Module 4: COMP ARCH (MODULE4) Mark: 55
+Final Grade: C
