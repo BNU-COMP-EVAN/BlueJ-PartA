@@ -30,7 +30,6 @@ public class StockDemo
         {
             this.manager = manager;
             randomGenerator = new Random();
-
             // Add at least 10 products, they do not have to be mobiles
             // Make sure the ids are sequential numbers
             manager.addProduct(new Product(101, "Samsung Galaxy S20"));
@@ -57,14 +56,16 @@ public class StockDemo
     {
         // Show details of all of the products before delivery.
         manager.printAllProducts();
-
         demoDeliverProducts();
         manager.printAllProducts();        
-
         demoSellProducts();
         manager.printAllProducts();
-
     }
+    
+    /**
+     * Runs through the product item using the arrayList
+     * Randomly generates stock quantity
+     */
 
     private void demoDeliverProducts()
     {
@@ -78,7 +79,11 @@ public class StockDemo
             amount++;
         }
     }
-
+    
+    /**
+     * Runs through the items using the arrayList
+     * Randomly generates stock quantity 
+     */
     private void demoSellProducts()
     {
         printHeading("sell");
@@ -93,7 +98,7 @@ public class StockDemo
     }
 
     /**
-     * output formatting
+     * Output formatting
      */
     public void printHeading (String verb)
     {

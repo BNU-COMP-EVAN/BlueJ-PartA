@@ -51,7 +51,7 @@ public class StockManager
     }
 
     /**
-     * 
+     * Method to locate product by its ID
      */
     public Product findProduct(int id)
     { //for every product in the stock collection, do an action.
@@ -96,7 +96,6 @@ public class StockManager
         if(product != null)
         {
             System.out.println(" Available Stock : " + product.getQuantity());
-
             System.out.println(product);
         }
         else 
@@ -125,7 +124,6 @@ public class StockManager
     public void printProduct(int id)
     {
         Product product = findProduct(id);
-
         if(product != null) 
         {
             System.out.println(product.toString());
@@ -139,12 +137,10 @@ public class StockManager
     public void printAllProducts()
     {
         printHeading();
-
         for(Product product : stock)
         {
             System.out.println(product);
         }
-
         System.out.println();
     }
 
@@ -186,7 +182,7 @@ public class StockManager
             System.out.println (product);
         }
     }
-    
+
     /**
      * Print out products that are low in stock
      */
@@ -194,10 +190,10 @@ public class StockManager
     {
         ArrayList<Product> lowStock = new ArrayList<Product>();
         int count = 0;
-        
+
         System.out.println(" List of all out of stock products ");
         System.out.println();
-        
+
         for(Product product : stock)
         {
             if(product.getQuantity() <= minimum)
@@ -207,31 +203,29 @@ public class StockManager
                 System.out.println(product);
             }
         }
-        
+
         System.out.println();
         System.out.println("There were " + count + 
-        "stock products with less than " + minimum + " items ");
-        
+            "stock products with less than " + minimum + " items ");
+
         return lowStock;
     }
-    
+
     /**
      *  Increases the quantity of lowstock products
      */
     public void restockLowProduct(int minimum)
     {
         ArrayList<Product> lowstock = printLowStockProducts(minimum);
-        
+
         System.out.println(" \n Adding stock " + minimum + "\n");
-        
+
         for(Product product : lowstock)
         {
             product.increaseQuantity(minimum - product.getQuantity());
         }
     }
-    
-    
-    
+
     /**
      * Print out the stock list
      * 
