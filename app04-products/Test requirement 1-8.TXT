@@ -160,3 +160,7 @@ evanStockManager.renameProduct(111, "HTC ONE");
 111: SamsungTv stock level: 0
 **NEW_NAME***
 111: HTC ONE stock level: 0
+
+evanStockManager.removeProduct(111);
+
+ Product ID 111 Removed
