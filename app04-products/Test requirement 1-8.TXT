@@ -1,0 +1,162 @@
+StockManager evanStockManager = new StockManager();
+StockDemo evanStockDemo = new StockDemo(evanStockManager);
+evanStockDemo.runDemo();
+
+Evan's Stock List
+====================
+
+101: Samsung Galaxy S20 stock level: 0
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 8 stock level: 0
+105: Apple iPad Pro stock level: 0
+106: Samsung Flip stock level: 0
+107: OnePlus 8T stock level: 0
+108: Xiaomi MI 10 stock level: 0
+109: Samsung Galaxy S21 stock level: 0
+110: Apple 12 Pro Max stock level: 0
+
+
+==================
+
+Product Delivered 
+ delivery
+==================
+
+Attempted to restock Samsung Galaxy S20 without a positive amount: 0
+ Product Deliveries : 101: Samsung Galaxy S20 stock level: 0
+ Product Deliveries : 102: Apple iPhone 12 stock level: 1
+ Product Deliveries : 103: Google Pixel 4A stock level: 2
+ Product Deliveries : 104: Apple iPhone 8 stock level: 3
+ Product Deliveries : 105: Apple iPad Pro stock level: 4
+ Product Deliveries : 106: Samsung Flip stock level: 5
+ Product Deliveries : 107: OnePlus 8T stock level: 6
+ Product Deliveries : 108: Xiaomi MI 10 stock level: 7
+ Product Deliveries : 109: Samsung Galaxy S21 stock level: 8
+ Product Deliveries : 110: Apple 12 Pro Max stock level: 9
+
+Evan's Stock List
+====================
+
+101: Samsung Galaxy S20 stock level: 0
+102: Apple iPhone 12 stock level: 1
+103: Google Pixel 4A stock level: 2
+104: Apple iPhone 8 stock level: 3
+105: Apple iPad Pro stock level: 4
+106: Samsung Flip stock level: 5
+107: OnePlus 8T stock level: 6
+108: Xiaomi MI 10 stock level: 7
+109: Samsung Galaxy S21 stock level: 8
+110: Apple 12 Pro Max stock level: 9
+
+
+==================
+
+Product Delivered 
+ sell
+==================
+
+ Selling: 101, quantity: 0
+ Sold 0 of Samsung Galaxy S20
+
+ Selling: 102, quantity: 1
+ Sold 1 of Apple iPhone 12
+
+ Selling: 103, quantity: 2
+ Sold 2 of Google Pixel 4A
+
+ Selling: 104, quantity: 3
+ Sold 3 of Apple iPhone 8
+
+ Selling: 105, quantity: 4
+ Sold 4 of Apple iPad Pro
+
+ Selling: 106, quantity: 5
+ Sold 5 of Samsung Flip
+
+ Selling: 107, quantity: 6
+ Sold 6 of OnePlus 8T
+
+ Selling: 108, quantity: 7
+ Sold 7 of Xiaomi MI 10
+
+ Selling: 109, quantity: 8
+ Sold 8 of Samsung Galaxy S21
+
+ Selling: 110, quantity: 9
+ Sold 9 of Apple 12 Pro Max
+
+
+Evan's Stock List
+====================
+
+101: Samsung Galaxy S20 stock level: 0
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 8 stock level: 0
+105: Apple iPad Pro stock level: 0
+106: Samsung Flip stock level: 0
+107: OnePlus 8T stock level: 0
+108: Xiaomi MI 10 stock level: 0
+109: Samsung Galaxy S21 stock level: 0
+110: Apple 12 Pro Max stock level: 0
+
+evanStockManager.printLowStockProducts(10)
+ List of all out of stock products 
+
+    returned Object <object reference>
+101: Samsung Galaxy S20 stock level: 0
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 8 stock level: 0
+105: Apple iPad Pro stock level: 0
+106: Samsung Flip stock level: 0
+107: OnePlus 8T stock level: 0
+108: Xiaomi MI 10 stock level: 0
+109: Samsung Galaxy S21 stock level: 0
+110: Apple 12 Pro Max stock level: 0
+
+There were 10stock products with less than 10 items 
+evanStockManager.restockLowProduct(10);
+ List of all out of stock products 
+
+101: Samsung Galaxy S20 stock level: 0
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 8 stock level: 0
+105: Apple iPad Pro stock level: 0
+106: Samsung Flip stock level: 0
+107: OnePlus 8T stock level: 0
+108: Xiaomi MI 10 stock level: 0
+109: Samsung Galaxy S21 stock level: 0
+110: Apple 12 Pro Max stock level: 0
+
+There were 10stock products with less than 10 items 
+ 
+ Adding stock 10
+
+evanStockManager.printAllProducts();
+
+Evan's Stock List
+====================
+
+101: Samsung Galaxy S20 stock level: 10
+102: Apple iPhone 12 stock level: 10
+103: Google Pixel 4A stock level: 10
+104: Apple iPhone 8 stock level: 10
+105: Apple iPad Pro stock level: 10
+106: Samsung Flip stock level: 10
+107: OnePlus 8T stock level: 10
+108: Xiaomi MI 10 stock level: 10
+109: Samsung Galaxy S21 stock level: 10
+110: Apple 12 Pro Max stock level: 10
+
+Product samsungtv = new Product(111, "SamsungTv");
+evanStockManager.addProduct(samsungtv);
+evanStockManager.printDetails(111);
+ Available Stock : 0
+111: SamsungTv stock level: 0
+evanStockManager.renameProduct(111, "HTC ONE");
+111: SamsungTv stock level: 0
+**NEW_NAME***
+111: HTC ONE stock level: 0
