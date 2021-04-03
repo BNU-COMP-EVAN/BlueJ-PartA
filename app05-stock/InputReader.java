@@ -5,10 +5,10 @@ import java.util.Scanner;
  * InputReader reads typed text input from the standard text terminal. 
  * The text typed by a user is returned.
  * 
- * @author     Michael Kölling and David J. Barnes
- * @version    0.1 (2016.02.29)
+ * @author     Evan Castro
+ * @version    1/4/2021
  * 
- * Modified by Derek Peacock 13/12/2020
+ * Modified by Evan Castro
  */
 public class InputReader
 {
@@ -21,7 +21,7 @@ public class InputReader
     {
         reader = new Scanner(System.in);
     }
-
+    
     /**
      * Read a line of text from standard input (the text terminal),
      * and return it as a String.
@@ -46,6 +46,7 @@ public class InputReader
 
         return inputLine;
     }
+
     
     /**
      * Read a the next int from standard imput (the text terminal),
@@ -73,4 +74,6 @@ public class InputReader
 
         return number;
     }
+    
+    
 }
