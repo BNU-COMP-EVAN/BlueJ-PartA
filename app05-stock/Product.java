@@ -95,7 +95,7 @@ public class Product
 
     /**
      * Sell one of these products.
-     * An error is reported if there appears to be no stock.
+     * An error is reported if there is limited or zero stocks
      */
     public void sellQuantity(int amount)
     {
@@ -109,7 +109,7 @@ public class Product
         }
         else if(amount > quantity) 
         {
-            System.out.println("Error: Attempting to sell more of a product than in stock");
+            System.out.println("Error: Limited stock available!, Please add more stock");
             System.out.println("Attempt to sell " + amount + " " + name + 
                 " limited " + quantity + " in stock");
         }
