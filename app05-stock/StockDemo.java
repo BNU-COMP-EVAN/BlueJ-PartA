@@ -11,12 +11,13 @@ import java.util.Random;
  */
 public class StockDemo
 {
-    public static final int FIRST_ID = 101;
 
     // The stock manager.
     private StockManager manager;
 
     private Random randomGenerator;
+    
+    private Product product;
 
     /**
      * Create a StockManager and populate it with at least

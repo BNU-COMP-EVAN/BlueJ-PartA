@@ -1,0 +1,199 @@
+
+    ADD :        Add a new product 
+
+    REMOVE:     Remove an old product
+
+    PRINTPRODUCT:   Print all products
+
+    DELIVER: Deliver specific product
+
+    SELL: Sell a specific product
+
+    LOWINSTOCK: Print Product that is low in stock
+
+    SEARCH: Search for a specific product
+
+    RESTOCK: Restock Product
+
+    PRINT: Print a specific product
+
+    QUIT:  Quit the program
+
+
+ Please enter your choice 
+ Your entry is blank! 
+ Please enter your choice ADD
+
+Please enter the product NAME you would like to add 
+Apple iPhone 12
+Please enter the ID of the product you would like to add 
+
+114
+Apple iPhone 12: 114 has been added 
+
+
+Evan's Stock List
+====================
+
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 8 stock level: 0
+105: Apple iPad Pro stock level: 0
+106: Samsung Flip stock level: 0
+107: OnePlus 8T stock level: 0
+108: Xiaomi MI 10 stock level: 0
+109: Samsung Galaxy S21 stock level: 0
+110: Apple 12 Pro Max stock level: 0
+111: Samsung Galaxy S10 stock level: 0
+112: Samsung Galaxy S20 stock level: 0
+113: Apple iPhone 11 stock level: 0
+114: Apple iPhone 12 stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Evan Castro
+******************************
+
+    ADD :        Add a new product 
+
+    REMOVE:     Remove an old product
+
+    PRINTPRODUCT:   Print all products
+
+    DELIVER: Deliver specific product
+
+    SELL: Sell a specific product
+
+    LOWINSTOCK: Print Product that is low in stock
+
+    SEARCH: Search for a specific product
+
+    RESTOCK: Restock Product
+
+    PRINT: Print a specific product
+
+    QUIT:  Quit the program
+
+
+ Please enter your choice 
+ Your entry is blank! 
+ Please enter your choice ADD
+
+Please enter the product NAME you would like to add 
+Motorola G9 Plus
+Please enter the ID of the product you would like to add 
+
+115
+Motorola G9 Plus: 115 has been added 
+
+
+Evan's Stock List
+====================
+
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 8 stock level: 0
+105: Apple iPad Pro stock level: 0
+106: Samsung Flip stock level: 0
+107: OnePlus 8T stock level: 0
+108: Xiaomi MI 10 stock level: 0
+109: Samsung Galaxy S21 stock level: 0
+110: Apple 12 Pro Max stock level: 0
+111: Samsung Galaxy S10 stock level: 0
+112: Samsung Galaxy S20 stock level: 0
+113: Apple iPhone 11 stock level: 0
+114: Apple iPhone 12 stock level: 0
+115: Motorola G9 Plus stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Evan Castro
+******************************
+
+    ADD :        Add a new product 
+
+    REMOVE:     Remove an old product
+
+    PRINTPRODUCT:   Print all products
+
+    DELIVER: Deliver specific product
+
+    SELL: Sell a specific product
+
+    LOWINSTOCK: Print Product that is low in stock
+
+    SEARCH: Search for a specific product
+
+    RESTOCK: Restock Product
+
+    PRINT: Print a specific product
+
+    QUIT:  Quit the program
+
+
+ Please enter your choice 
+ Your entry is blank! 
+ Please enter your choice ADD
+
+Please enter the product NAME you would like to add 
+New Product
+Please enter the ID of the product you would like to add 
+
+103
+New Product: 103 has been added 
+
+
+Evan's Stock List
+====================
+
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 8 stock level: 0
+105: Apple iPad Pro stock level: 0
+106: Samsung Flip stock level: 0
+107: OnePlus 8T stock level: 0
+108: Xiaomi MI 10 stock level: 0
+109: Samsung Galaxy S21 stock level: 0
+110: Apple 12 Pro Max stock level: 0
+111: Samsung Galaxy S10 stock level: 0
+112: Samsung Galaxy S20 stock level: 0
+113: Apple iPhone 11 stock level: 0
+114: Apple iPhone 12 stock level: 0
+115: Motorola G9 Plus stock level: 0
+103: New Product stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Evan Castro
+******************************
+
+    ADD :        Add a new product 
+
+    REMOVE:     Remove an old product
+
+    PRINTPRODUCT:   Print all products
+
+    DELIVER: Deliver specific product
+
+    SELL: Sell a specific product
+
+    LOWINSTOCK: Print Product that is low in stock
+
+    SEARCH: Search for a specific product
+
+    RESTOCK: Restock Product
+
+    PRINT: Print a specific product
+
+    QUIT:  Quit the program
+
+
+ Please enter your choice 
+ Your entry is blank! 
+ Please enter your choice Add
+
+Please enter the product NAME you would like to add 
+
+
+ Your entry is blank! 
+Please enter the product NAME you would like to add 

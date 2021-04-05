@@ -1,0 +1,200 @@
+    SELL: Sell a specific product
+
+    LOWINSTOCK: Print Product that is low in stock
+
+    SEARCH: Search for a specific product
+
+    RESTOCK: Restock Product
+
+    PRINT: Print a specific product
+
+    QUIT:  Quit the program
+
+
+ Please enter your choice 
+ Your entry is blank! 
+ Please enter your choice print
+
+Printing All Products
+----------
+
+
+Evan's Stock List
+====================
+
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 8 stock level: 0
+105: Apple iPad Pro stock level: 0
+106: Samsung Flip stock level: 0
+107: OnePlus 8T stock level: 0
+108: Xiaomi MI 10 stock level: 0
+109: Samsung Galaxy S21 stock level: 0
+110: Apple 12 Pro Max stock level: 0
+112: Samsung Galaxy S20 stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Evan Castro
+******************************
+
+    ADD :        Add a new product 
+
+    REMOVE:     Remove an old product
+
+    PRINTPRODUCT:   Print all products
+
+    DELIVER: Deliver specific product
+
+    SELL: Sell a specific product
+
+    LOWINSTOCK: Print Product that is low in stock
+
+    SEARCH: Search for a specific product
+
+    RESTOCK: Restock Product
+
+    PRINT: Print a specific product
+
+    QUIT:  Quit the program
+
+
+ Please enter your choice sell
+
+Please enter the product NAME you would like to deliver 
+Samsung Galaxy S20
+Please enter the AMOUNT of the product you would like to sell 
+
+-2
+Your value is less than zero!
+Please enter the AMOUNT of the product you would like to sell 
+
+2
+Please enter the ID of the product you would like to sell 
+
+112
+ Selling: 112, quantity: 2
+Error: Attempting to sell more of a product than in stock
+Attempt to sell 2 Samsung Galaxy S20 limited 0 in stock
+Samsung Galaxy S20: 112 has been sold
+******************************
+ Stock Management Application 
+    App05: by Evan Castro
+******************************
+
+    ADD :        Add a new product 
+
+    REMOVE:     Remove an old product
+
+    PRINTPRODUCT:   Print all products
+
+    DELIVER: Deliver specific product
+
+    SELL: Sell a specific product
+
+    LOWINSTOCK: Print Product that is low in stock
+
+    SEARCH: Search for a specific product
+
+    RESTOCK: Restock Product
+
+    PRINT: Print a specific product
+
+    QUIT:  Quit the program
+
+
+ Please enter your choice 
+ Your entry is blank! 
+ Please enter your choice Search
+
+
+Evan's Stock List
+====================
+
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 8 stock level: 0
+105: Apple iPad Pro stock level: 0
+106: Samsung Flip stock level: 0
+107: OnePlus 8T stock level: 0
+108: Xiaomi MI 10 stock level: 0
+109: Samsung Galaxy S21 stock level: 0
+110: Apple 12 Pro Max stock level: 0
+112: Samsung Galaxy S20 stock level: 0
+
+Please enter a phrase to search for a product (case sensitive) 
+Samsung
+
+Searching for  Samsung
+
+106: Samsung Flip stock level: 0
+109: Samsung Galaxy S21 stock level: 0
+112: Samsung Galaxy S20 stock level: 0
+ There are 3  remaining product Samsung in their name 
+******************************
+ Stock Management Application 
+    App05: by Evan Castro
+******************************
+
+    ADD :        Add a new product 
+
+    REMOVE:     Remove an old product
+
+    PRINTPRODUCT:   Print all products
+
+    DELIVER: Deliver specific product
+
+    SELL: Sell a specific product
+
+    LOWINSTOCK: Print Product that is low in stock
+
+    SEARCH: Search for a specific product
+
+    RESTOCK: Restock Product
+
+    PRINT: Print a specific product
+
+    QUIT:  Quit the program
+
+
+ Please enter your choice LOWINSTOCK
+
+ List of all out of stock products 
+
+102: Apple iPhone 12 stock level: 0
+103: Google Pixel 4A stock level: 0
+104: Apple iPhone 8 stock level: 0
+105: Apple iPad Pro stock level: 0
+106: Samsung Flip stock level: 0
+107: OnePlus 8T stock level: 0
+108: Xiaomi MI 10 stock level: 0
+109: Samsung Galaxy S21 stock level: 0
+110: Apple 12 Pro Max stock level: 0
+112: Samsung Galaxy S20 stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Evan Castro
+******************************
+
+    ADD :        Add a new product 
+
+    REMOVE:     Remove an old product
+
+    PRINTPRODUCT:   Print all products
+
+    DELIVER: Deliver specific product
+
+    SELL: Sell a specific product
+
+    LOWINSTOCK: Print Product that is low in stock
+
+    SEARCH: Search for a specific product
+
+    RESTOCK: Restock Product
+
+    PRINT: Print a specific product
+
+    QUIT:  Quit the program
+
+
+ Please enter your choice 

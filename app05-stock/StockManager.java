@@ -49,7 +49,6 @@ public class StockManager
             System.out.println("Error, Product not found");
         }
     }
-    
 
     /**
      * Method to locate product by its ID
@@ -64,6 +63,24 @@ public class StockManager
             }
         }
         return null;
+    }
+
+    /**
+     * Method to find Product by its name
+     */
+    public void searchProducts(String targetPhrase)
+    {
+        int count = 0;
+        System.out.println("\nSearching for  " + targetPhrase + "\n");
+        for(Product product: stock)
+        {
+            if(product.getName().contains(targetPhrase))
+            {
+                System.out.println(product);
+                count++;
+            }
+        }
+        System.out.println(" There are " + count+ " " + " remaining product " + targetPhrase + " in their name ");
     }
 
     /**
@@ -166,14 +183,14 @@ public class StockManager
     /**
      * Method to rename product
      */
-    public void renameProduct(int id, String newName)
+    public void renameProduct(int id, String newName, String name)
     {
 
         Product product = findProduct(id);
 
         if(product == null)
         {
-            System.out.println( "Product id " + id + " not found ");
+            System.out.println( "Product id " + id + "Name" + name  + " not found ");
         }
         else 
         {
@@ -184,48 +201,18 @@ public class StockManager
         }
     }
 
-    /**
+   /**
      * Print out products that are low in stock
      */
-    public ArrayList<Product> printLowStockProducts(int minimum)
+    public void printLowStock()
     {
-        ArrayList<Product> lowStock = new ArrayList<Product>();
-        int count = 0;
-
         System.out.println(" List of all out of stock products ");
         System.out.println();
-
-        for(Product product : stock)
+        for(Product product: stock)
         {
-            if(product.getQuantity() <= minimum)
+            if(product.getQuantity() < 5)
             {
-                count++;
-                lowStock.add(product);
-                System.out.println(product);
-            }
-        }
-
-        System.out.println();
-        System.out.println("There were " + count + 
-            "stock products with less than " + minimum + " items ");
-
-        return lowStock;
-    }
-
-    /**
-     * Print out products that are low in stock
-     */
-    public void lowStockProducts()
-    {
-
-        System.out.println(" List of all out of stock products ");
-        System.out.println();
-
-        for(Product product : stock)
-        {
-            if(product.getQuantity() >=1 && product.getQuantity() <= 10)
-            {
-                System.out.println(product.toString());
+                product.printDetails();
             }
         }
     }
@@ -233,29 +220,31 @@ public class StockManager
     /**
      *  Increases the quantity of lowstock products
      */
-    public void restockLowProduct(int amount)
+    public void reStockProduct(int amount)
     {
-
-        for(Product product : stock)
+        for(Product product: stock)
         {
-            if(product.getQuantity() >=1 && product.getQuantity()<= 10)
+            if(product.getQuantity() <= 5)
             {
-                if(amount >= 1 && amount <= 11)
-                {
-                    product.increaseQuantity(amount);
-                    System.out.println(product.getName() + " item restocked "
-                    + amount + " quantity " + "\n" + product.toString());
-                }
-                else 
-                {
-                    System.out.println(" Enter number a number between 1 to 11"); 
-                }
+                product.increaseQuantity(amount);    
             }
         }
     }
 
     /**
-     * Print out the stock list
+     * Check whether there is a product
+     */
+    public boolean checkNoProducts()
+    {
+        if(stock.isEmpty() == true)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * Print out heading for stock list
      * 
      *
      */

@@ -41,7 +41,7 @@ public class InputReader
             if(!inputLine.isEmpty())
                 isValid = true;
             else 
-                System.out.println("Your entry is blank!");
+                System.out.println("\n Your entry is blank! ");
         }
 
         return inputLine;
@@ -69,7 +69,9 @@ public class InputReader
                 isValid = true;
             }
             else 
+            {
                 System.out.println("Your value is less than zero!");
+            }
         }
 
         return number;

@@ -50,6 +50,13 @@ public class Product
         return quantity;
     }
     
+    /**
+     * @return The id, name and quantity in stock.
+     */
+    public void printDetails()
+    {
+        System.out.println(id + ": " +  name + " stock level: " + quantity);
+    }
 
     /**
      * Allows the product to be renamed
@@ -71,7 +78,7 @@ public class Product
      * Restock with the given amount of this product.
      * The current quantity is incremented by the given amount.
      * @param amount The number of new items added to the stock.
-     *               This must be greater than zero.
+     * This must be greater than zero.
      */
     public void increaseQuantity(int amount)
     {
@@ -92,15 +99,19 @@ public class Product
      */
     public void sellQuantity(int amount)
     {
-        if(quantity >= 0) 
+       if(amount == 0)
+        {
+            System.out.println("Error: Must enter a positive value");
+        }
+        else if(amount <= quantity) 
         {
             quantity -= amount;
-            System.out.println (" Sold " + amount + " of " + name);
         }
-        else 
+        else if(amount > quantity) 
         {
-            System.out.println(
-                "Item is out of stock: " + name);
+            System.out.println("Error: Attempting to sell more of a product than in stock");
+            System.out.println("Attempt to sell " + amount + " " + name + 
+                " limited " + quantity + " in stock");
         }
     }
 }
